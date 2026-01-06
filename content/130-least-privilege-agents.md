@@ -1,5 +1,5 @@
 ---
-title: Least Privilege for Agents
+title: 130-Least Privilege for Agents
 tags:
   - phase3
   - access-control

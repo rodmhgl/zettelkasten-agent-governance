@@ -1,5 +1,5 @@
 ---
-title: Audit the Reasoning Trace
+title: 141-Audit the Reasoning Trace
 tags:
   - phase4
   - monitoring

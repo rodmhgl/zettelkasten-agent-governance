@@ -1,5 +1,5 @@
 ---
-title: Agent Identity Blueprints
+title: 110-Agent Identity Blueprints
 tags:
   - phase1
   - registration

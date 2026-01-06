@@ -1,5 +1,5 @@
 ---
-title: Zero Trust for Agents
+title: 160-Zero Trust for Agents
 tags:
   - pattern
   - security

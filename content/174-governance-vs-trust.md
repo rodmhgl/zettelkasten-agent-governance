@@ -1,5 +1,5 @@
 ---
-title: Governability vs. Trustworthiness
+title: 174-Governability vs. Trustworthiness
 tags:
   - principle
   - governance

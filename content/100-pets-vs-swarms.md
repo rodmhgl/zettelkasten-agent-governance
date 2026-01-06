@@ -1,5 +1,5 @@
 ---
-title: Pets vs Swarms - Agent Management Paradigm
+title: 100-Pets vs Swarms - Agent Management Paradigm
 tags:
   - concept
   - governance
