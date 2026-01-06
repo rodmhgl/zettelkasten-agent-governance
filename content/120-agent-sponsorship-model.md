@@ -1,6 +1,11 @@
-# Agent Sponsorship Model
-
-#phase2 #governance #accountability #sponsor
+---
+title: Agent Sponsorship Model
+tags:
+  - phase2
+  - governance
+  - accountability
+  - sponsor
+---
 
 ## The Principle
 

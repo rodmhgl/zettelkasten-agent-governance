@@ -1,6 +1,11 @@
-# Automated Kill Switch
-
-#phase4 #monitoring #response #revocation
+---
+title: Automated Kill Switch
+tags:
+  - phase4
+  - monitoring
+  - response
+  - revocation
+---
 
 ## The Principle
 

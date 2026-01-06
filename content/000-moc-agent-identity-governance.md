@@ -1,6 +1,11 @@
-# Agent Identity Governance - Map of Content
-
-#moc #agent-governance #entra #nhi
+---
+title: Agent Identity Governance - Map of Content
+tags:
+  - moc
+  - agent-governance
+  - entra
+  - nhi
+---
 
 ## Overview
 

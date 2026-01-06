@@ -1,6 +1,11 @@
-# Agent Risk Detection
-
-#phase4 #monitoring #risk #identity-protection
+---
+title: Agent Risk Detection
+tags:
+  - phase4
+  - monitoring
+  - risk
+  - identity-protection
+---
 
 ## What It Is
 

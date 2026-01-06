@@ -1,6 +1,11 @@
-# Agent Identity Blueprints
-
-#phase1 #registration #blueprint #template
+---
+title: Agent Identity Blueprints
+tags:
+  - phase1
+  - registration
+  - blueprint
+  - template
+---
 
 ## What Is a Blueprint?
 

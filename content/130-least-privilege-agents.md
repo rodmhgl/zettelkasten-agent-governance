@@ -1,6 +1,11 @@
-# Least Privilege for Agents
-
-#phase3 #access-control #security #principle
+---
+title: Least Privilege for Agents
+tags:
+  - phase3
+  - access-control
+  - security
+  - principle
+---
 
 ## The Principle
 

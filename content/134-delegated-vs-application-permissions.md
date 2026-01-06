@@ -1,6 +1,11 @@
-# Delegated vs Application Permissions
-
-#phase3 #access-control #permissions #scopes
+---
+title: Delegated vs Application Permissions
+tags:
+  - phase3
+  - access-control
+  - permissions
+  - scopes
+---
 
 ## The Two Permission Types
 
@@ -56,7 +61,7 @@ Agent can read: ALL mailboxes in tenant
 ```
 Is a user available during agent operation?
 ├── Yes → Use delegated permissions
-└── No → 
+└── No →
     Does agent need cross-user access?
     ├── Yes → Application permissions (document carefully)
     └── No → Consider managed identity or service account

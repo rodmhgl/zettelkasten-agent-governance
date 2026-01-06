@@ -1,6 +1,10 @@
-# Microsoft Entra Agent ID Overview
-
-#platform #entra #agent-id
+---
+title: Microsoft Entra Agent ID Overview
+tags:
+  - platform
+  - entra
+  - agent-id
+---
 
 ## What It Is
 

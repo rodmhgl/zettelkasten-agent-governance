@@ -1,6 +1,11 @@
-# Credential Revocation for Agents
-
-#phase5 #retirement #credentials #security
+---
+title: Credential Revocation for Agents
+tags:
+  - phase5
+  - retirement
+  - credentials
+  - security
+---
 
 ## The Challenge
 

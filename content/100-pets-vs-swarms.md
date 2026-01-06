@@ -1,6 +1,10 @@
-# Pets vs Swarms - Agent Management Paradigm
-
-#concept #governance #scalability
+---
+title: Pets vs Swarms - Agent Management Paradigm
+tags:
+  - concept
+  - governance
+  - scalability
+---
 
 ## The Shift
 

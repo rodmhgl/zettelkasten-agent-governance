@@ -1,6 +1,11 @@
-# Access Reviews for Agent Recertification
-
-#phase2 #governance #attestation #compliance
+---
+title: Access Reviews for Agent Recertification
+tags:
+  - phase2
+  - governance
+  - attestation
+  - compliance
+---
 
 ## The Principle
 

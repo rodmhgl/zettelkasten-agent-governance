@@ -1,6 +1,11 @@
-# Conditional Access for Agents
-
-#phase3 #access-control #conditional-access #policy
+---
+title: Conditional Access for Agents
+tags:
+  - phase3
+  - access-control
+  - conditional-access
+  - policy
+---
 
 ## What It Is
 

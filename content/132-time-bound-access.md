@@ -1,6 +1,11 @@
-# Time-Bound Access for Agents
-
-#phase3 #access-control #expiration #temporal
+---
+title: Time-Bound Access for Agents
+tags:
+  - phase3
+  - access-control
+  - expiration
+  - temporal
+---
 
 ## The Principle
 

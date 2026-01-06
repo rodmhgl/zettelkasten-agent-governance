@@ -1,6 +1,11 @@
-# Access Packages for Agents
-
-#phase3 #access-control #entitlement #bundle
+---
+title: Access Packages for Agents
+tags:
+  - phase3
+  - access-control
+  - entitlement
+  - bundle
+---
 
 ## What Is an Access Package?
 

@@ -1,6 +1,11 @@
-# Agent Registry
-
-#phase1 #registration #inventory #discovery
+---
+title: Agent Registry
+tags:
+  - phase1
+  - registration
+  - inventory
+  - discovery
+---
 
 ## What It Is
 

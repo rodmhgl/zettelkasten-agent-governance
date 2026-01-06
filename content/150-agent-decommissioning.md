@@ -1,6 +1,11 @@
-# Agent Decommissioning
-
-#phase5 #retirement #lifecycle #cleanup
+---
+title: Agent Decommissioning
+tags:
+  - phase5
+  - retirement
+  - lifecycle
+  - cleanup
+---
 
 ## The Principle
 
@@ -24,22 +29,22 @@ When a project ends, team disbands, or agent is replaced, the identity must be f
 ```
 1. Disable authentication
    └── accountEnabled = false
-   
+
 2. Revoke active tokens
    └── Continuous Access Evaluation (CAE)
-   
+
 3. Remove permissions
    └── Group memberships, app roles, API permissions
-   
+
 4. Archive audit logs
    └── Retain for compliance period
-   
+
 5. Data cleanup
    └── See [[152-data-cleanup]]
-   
+
 6. Soft delete identity
    └── 30-day recovery window
-   
+
 7. Hard delete (optional)
    └── Permanent removal after recovery period
 ```

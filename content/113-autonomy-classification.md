@@ -1,6 +1,11 @@
-# Agent Autonomy Classification
-
-#phase1 #registration #risk #classification
+---
+title: Agent Autonomy Classification
+tags:
+  - phase1
+  - registration
+  - risk
+  - classification
+---
 
 ## Why Classify?
 

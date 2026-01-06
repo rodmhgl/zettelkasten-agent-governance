@@ -1,6 +1,10 @@
-# Non-Human Identity (NHI)
-
-#concept #identity #security
+---
+title: Non-Human Identity (NHI)
+tags:
+  - concept
+  - identity
+  - security
+---
 
 ## Definition
 

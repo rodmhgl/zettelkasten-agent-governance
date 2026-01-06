@@ -1,6 +1,11 @@
-# Unique Machine Identities for Agents
-
-#phase1 #registration #identity #auditability
+---
+title: Unique Machine Identities for Agents
+tags:
+  - phase1
+  - registration
+  - identity
+  - auditability
+---
 
 ## The Principle
 

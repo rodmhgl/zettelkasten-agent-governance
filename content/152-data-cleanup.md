@@ -1,6 +1,11 @@
-# Data Cleanup for Retired Agents
-
-#phase5 #retirement #data #privacy
+---
+title: Data Cleanup for Retired Agents
+tags:
+  - phase5
+  - retirement
+  - data
+  - privacy
+---
 
 ## The Challenge
 
@@ -31,18 +36,18 @@ This data can leak sensitive information if not properly handled.
 ```
 1. Inventory agent data stores
    └── Where does/did the agent store data?
-   
+
 2. Classify by retention requirement
    └── Audit logs: Retain 7 years
    └── PII cache: Delete immediately
    └── Business artifacts: Archive
-   
+
 3. Execute cleanup per store
    └── Platform-specific procedures
-   
+
 4. Verify cleanup
    └── Confirm data is inaccessible
-   
+
 5. Document for compliance
    └── Record what was deleted when
 ```

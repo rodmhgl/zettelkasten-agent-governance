@@ -1,6 +1,11 @@
-# Agent Conditional Access Policy Patterns
-
-#pattern #conditional-access #implementation #policies
+---
+title: Agent Conditional Access Policy Patterns
+tags:
+  - pattern
+  - conditional-access
+  - implementation
+  - policies
+---
 
 ## Overview
 
@@ -46,7 +51,7 @@ Limit agent types to specific resources.
 
 ```
 Name: ALLOW - Sales Agents to CRM Only
-Users: 
+Users:
   - Include: Sales Agent blueprint
 Cloud apps:
   - Include: Dynamics 365 Sales

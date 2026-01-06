@@ -1,6 +1,11 @@
-# Audit the Reasoning Trace
-
-#phase4 #monitoring #audit #observability
+---
+title: Audit the Reasoning Trace
+tags:
+  - phase4
+  - monitoring
+  - audit
+  - observability
+---
 
 ## The Principle
 

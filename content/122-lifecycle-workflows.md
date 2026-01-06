@@ -1,6 +1,11 @@
-# Lifecycle Workflows for Agents
-
-#phase2 #governance #automation #lifecycle
+---
+title: Lifecycle Workflows for Agents
+tags:
+  - phase2
+  - governance
+  - automation
+  - lifecycle
+---
 
 ## What Are Lifecycle Workflows?
 

@@ -1,6 +1,11 @@
-# Zero Trust for Agents
-
-#pattern #security #zero-trust #architecture
+---
+title: Zero Trust for Agents
+tags:
+  - pattern
+  - security
+  - zero-trust
+  - architecture
+---
 
 ## The Principle
 
