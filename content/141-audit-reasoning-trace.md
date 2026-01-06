@@ -31,26 +31,29 @@ Microsoft Entra Agent ID provides:
 
 ## Log Capture Architecture
 
-```
-┌─────────────────────────────────────────┐
-│ Agent Application                       │
-│ ┌─────────────────────────────────────┐ │
-│ │ Reasoning Trace (prompt/context)    │ │  ← Application logs
-│ └─────────────────────────────────────┘ │
-└─────────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────┐
-│ Microsoft Entra                         │
-│ ├── Sign-in logs (who authenticated)   │  ← Identity logs
-│ └── Audit logs (what changed)          │
-└─────────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────┐
-│ Resource Providers                      │
-│ └── Activity logs (what was accessed)  │  ← Resource logs
-└─────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph app["Application Logs"]
+        agent["Agent Application"]
+        trace["Reasoning Trace (prompt/context)"]
+        agent --- trace
+    end
+
+    subgraph identity["Identity Logs"]
+        entra["Microsoft Entra"]
+        signin["Sign-in logs (who authenticated)"]
+        audit["Audit logs (what changed)"]
+        entra --- signin
+        entra --- audit
+    end
+
+    subgraph resource["Resource Logs"]
+        providers["Resource Providers"]
+        activity["Activity logs (what was accessed)"]
+        providers --- activity
+    end
+
+    app --> identity --> resource
 ```
 
 ## Correlation Challenge
