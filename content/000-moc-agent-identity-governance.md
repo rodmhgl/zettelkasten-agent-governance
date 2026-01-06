@@ -1,5 +1,5 @@
 ---
-title: Agent Identity Governance - Map of Content
+title: 000-Agent Identity Governance - Map of Content
 tags:
   - moc
   - agent-governance
@@ -24,18 +24,21 @@ This MOC connects notes about governing AI agent identities at enterprise scale 
 ## Lifecycle Phases
 
 ### Phase 1: Registration & Discovery
+
 - [[110-agent-identity-blueprints]] - Templates for agent types
 - [[111-agent-registry]] - Centralized inventory
 - [[112-unique-machine-identities]] - One identity per agent
 - [[113-autonomy-classification]] - Risk-based tiering
 
 ### Phase 2: Ownership & Sponsorship
+
 - [[120-agent-sponsorship-model]] - Human accountability
 - [[121-owners-sponsors-managers]] - The three roles
 - [[122-lifecycle-workflows]] - Mover/leaver automation
 - [[123-access-reviews-recertification]] - Periodic attestation
 
 ### Phase 3: Access Control
+
 - [[130-least-privilege-agents]] - Never permanent, never broad
 - [[131-access-packages]] - Bundled permissions
 - [[132-time-bound-access]] - Expiration policies
@@ -43,11 +46,13 @@ This MOC connects notes about governing AI agent identities at enterprise scale 
 - [[134-delegated-vs-application-permissions]] - Scope decisions
 
 ### Phase 4: Monitoring & Protection
+
 - [[140-agent-risk-detection]] - Anomaly monitoring
 - [[141-audit-reasoning-trace]] - The "why" not just "what"
 - [[142-automated-kill-switch]] - Risk-triggered revocation
 
 ### Phase 5: Retirement
+
 - [[150-agent-decommissioning]] - End-of-life process
 - [[151-credential-revocation]] - Disabling access
 - [[152-data-cleanup]] - Memory and cache handling
