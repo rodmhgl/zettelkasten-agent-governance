@@ -5,6 +5,7 @@
 ## What Is an Access Package?
 
 An access package is a **bundle of resources** that can be requested as a unit:
+
 - Group memberships
 - Application role assignments
 - SharePoint site access

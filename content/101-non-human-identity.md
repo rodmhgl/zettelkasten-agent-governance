@@ -15,13 +15,14 @@ Non-human identities (NHI) are any identity not associated with a human user. In
 Most IAM solutions focus on human identities. NHIs present unique challenges:
 
 1. **Volume**: NHIs often outnumber human identities 10:1 or more
-2. **Credentials**: May use certificates, secrets, or federated credentials—not passwords
+2. **Credentials**: May use certificates, secrets, or federated credentials - not passwords
 3. **Lifecycle**: Created/destroyed programmatically, not through HR processes
 4. **Behavior**: Actions may appear anomalous by human standards
 
 ## Agent Identities as NHI
 
 AI agents are a *subset* of NHI with additional complexity:
+
 - May act autonomously OR on behalf of users
 - Require "reasoning trace" auditing (see [[141-audit-reasoning-trace]])
 - Need human sponsors for accountability (see [[120-agent-sponsorship-model]])

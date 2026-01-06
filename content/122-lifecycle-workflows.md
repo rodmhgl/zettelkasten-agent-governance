@@ -5,6 +5,7 @@
 ## What Are Lifecycle Workflows?
 
 Lifecycle Workflows (LCW) automate tasks at key moments in an identity's lifecycle:
+
 - **Joiner**: When entering scope
 - **Mover**: When changing roles/departments
 - **Leaver**: When exiting scope
@@ -14,11 +15,12 @@ For agents, the critical use case is **sponsor mover/leaver handling**.
 ## The Problem
 
 A human sponsor:
+
 1. Changes departments (mover)
 2. Leaves the company (leaver)
 3. Goes on extended leave
 
-Without automation, agents become "orphaned"—no one is accountable.
+Without automation, agents become "orphaned" - no one is accountable.
 
 ## Agent-Specific Tasks
 
@@ -42,6 +44,7 @@ Tasks:
 ## Automatic Succession
 
 When a sponsor leaves:
+
 1. LCW detects the change
 2. Notifications are sent
 3. Sponsorship transfers to manager (if configured)

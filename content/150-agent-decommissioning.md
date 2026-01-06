@@ -6,7 +6,7 @@
 
 **Agent identities should not outlive their usefulness.**
 
-When a project ends, team disbands, or agent is replaced, the identity must be formally retired—not abandoned.
+When a project ends, team disbands, or agent is replaced, the identity must be formally retired - not abandoned.
 
 ## Decommissioning Triggers
 

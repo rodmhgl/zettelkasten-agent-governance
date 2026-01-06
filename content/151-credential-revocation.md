@@ -5,6 +5,7 @@
 ## The Challenge
 
 Agent identities may have multiple credential types:
+
 - Federated identity credentials (from hosting platform)
 - Certificates (for legacy integrations)
 - Client secrets (avoid, but may exist)
@@ -23,7 +24,7 @@ All must be addressed during decommissioning.
 
 ## Federated Credentials (Preferred)
 
-Agent identities use **federated identity credentials**—no passwords or secrets stored in Entra. The hosting platform (Copilot Studio, Azure AI, etc.) issues tokens that Entra trusts.
+Agent identities use **federated identity credentials** - no passwords or secrets stored in Entra. The hosting platform (Copilot Studio, Azure AI, etc.) issues tokens that Entra trusts.
 
 Revocation: Remove the federated credential configuration.
 
@@ -34,6 +35,7 @@ DELETE /applications/{appId}/federatedIdentityCredentials/{id}
 ## Continuous Access Evaluation (CAE)
 
 CAE ensures revocation takes effect quickly:
+
 - Tokens are evaluated continuously, not just at issuance
 - Critical events (disable, revoke) propagate in minutes
 - Supported by Microsoft 365 and Azure services

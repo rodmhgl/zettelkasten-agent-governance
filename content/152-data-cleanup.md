@@ -5,6 +5,7 @@
 ## The Challenge
 
 Revoking an agent's identity doesn't remove the data it accumulated:
+
 - Conversation history / memory
 - Cached documents
 - Learned preferences
@@ -49,6 +50,7 @@ This data can leak sensitive information if not properly handled.
 ## Memory/Conversation Cleanup
 
 For agents with persistent memory:
+
 - Delete conversation threads
 - Clear user preference storage
 - Remove learned context
@@ -66,6 +68,7 @@ For agents with persistent memory:
 ## Platform-Specific Guidance
 
 Each agent hosting platform has different cleanup mechanisms:
+
 - **Copilot Studio**: Conversation history deletion via admin center
 - **Azure AI Agent Service**: Storage account lifecycle policies
 - **Custom agents**: Application-specific cleanup scripts

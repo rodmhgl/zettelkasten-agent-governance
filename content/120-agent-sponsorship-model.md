@@ -11,6 +11,7 @@ Unlike traditional service accounts that can exist without clear ownership, agen
 ## Why Sponsors Matter
 
 Agents act autonomously. When things go wrong, someone must:
+
 - Decide if behavior was expected
 - Authorize suspension or permission changes
 - Participate in security incident response
@@ -29,14 +30,16 @@ See [[121-owners-sponsors-managers]] for the full comparison. Key distinction:
 ## Sponsor Succession
 
 When a sponsor leaves the organization:
+
 1. Lifecycle Workflows detect the change (see [[122-lifecycle-workflows]])
 2. Notifications sent to manager and co-sponsors
 3. Sponsorship must be reassigned
-4. **Agent is NOT orphaned**—always has accountability chain
+4. **Agent is NOT orphaned** - always has accountability chain
 
 ## Groups as Sponsors
 
 Both users and groups can be sponsors. When a group is assigned:
+
 - All direct members have sponsor rights
 - Enables team-based accountability
 - Provides backup coverage

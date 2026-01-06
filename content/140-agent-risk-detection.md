@@ -20,6 +20,7 @@ ID Protection for agents continuously evaluates agent behavior and assigns risk 
 ## Risk Levels
 
 Agents are classified into risk levels:
+
 - **None**: Normal behavior
 - **Low**: Minor anomalies
 - **Medium**: Suspicious patterns
@@ -46,6 +47,7 @@ THEN Block access
 ## Comparison to Workload Identity Risk
 
 Agent risk detection builds on workload identity risk but adds:
+
 - Agent-specific anomalies (reasoning patterns)
 - Blueprint-level baselines
 - Integration with agent registry

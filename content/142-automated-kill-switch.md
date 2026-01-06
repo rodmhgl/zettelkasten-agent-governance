@@ -4,7 +4,7 @@
 
 ## The Principle
 
-When an agent's risk score exceeds a threshold, access should be **automatically revoked** without waiting for human intervention. Speed matters—compromised agents can act at machine speed.
+When an agent's risk score exceeds a threshold, access should be **automatically revoked** without waiting for human intervention. Speed matters - compromised agents can act at machine speed.
 
 ## Kill Switch Components
 
@@ -50,11 +50,13 @@ Risk detected
 ## Manual Kill Switch
 
 Sometimes humans need to trigger immediately:
+
 - Security incident response
 - Suspected compromise
 - Emergency change freeze
 
 Disabling via portal or Graph API:
+
 ```http
 PATCH /agents/{id}
 {

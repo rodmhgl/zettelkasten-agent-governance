@@ -5,6 +5,7 @@
 ## What It Is
 
 Conditional Access (CA) for Agent ID brings the same Zero Trust controls protecting human users to AI agents. CA evaluates agent access requests and enforces policies based on:
+
 - Agent identity or blueprint type
 - Risk level
 - Target resource
@@ -26,12 +27,14 @@ Unlike workload identity CA (limited to service principals), Agent ID CA support
 ## Common Policy Patterns
 
 ### Block High-Risk Agents
+
 ```
 Conditions: Agent risk = High
 Grant: Block access
 ```
 
 ### Restrict by Blueprint Type
+
 ```
 Conditions: Blueprint = "Sales Agent"
 Target: All resources
@@ -39,7 +42,9 @@ Grant: Require internal network
 ```
 
 ### Block Agent Authentication Entirely
+
 For organizations not ready for agents:
+
 ```
 Conditions: All agent identities
 Grant: Block

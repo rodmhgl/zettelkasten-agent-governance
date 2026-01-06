@@ -25,6 +25,7 @@ Agent can read: Only what user can read
 ```
 
 **Benefits**:
+
 - Natural least privilege (user's access bounds the agent)
 - Clear audit trail (user + agent visible)
 - User can revoke consent
@@ -39,11 +40,13 @@ Agent can read: ALL mailboxes in tenant
 ```
 
 **When necessary**:
+
 - Background processing without user present
 - Cross-user operations (reporting, sync)
 - System-level integrations
 
 **Risks**:
+
 - Over-privileged by default
 - No user bounding
 - Harder to audit intent
@@ -62,6 +65,7 @@ Is a user available during agent operation?
 ## Connection to Agent Operation Patterns
 
 See [[102-entra-agent-id-overview]] for the two patterns:
+
 - **Interactive agents** → Delegated permissions
 - **Autonomous agents** → Application permissions
 

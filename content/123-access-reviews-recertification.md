@@ -44,6 +44,7 @@ This ensures consensus without overwhelming single reviewers.
 ## Recommendations Engine
 
 Microsoft Entra provides ML-based recommendations:
+
 - Flag inactive agents
 - Identify excessive permissions
 - Detect low user-to-group affiliation

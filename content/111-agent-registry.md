@@ -12,6 +12,7 @@ The Agent Registry is a **centralized metadata repository** that maintains infor
 ## Why Centralization Matters
 
 Without a registry, organizations face:
+
 - Shadow agents deployed without IT knowledge
 - No visibility into third-party vendor agents
 - Inability to apply consistent policies
@@ -29,6 +30,7 @@ Without a registry, organizations face:
 ## Collections
 
 Agents are organized into **collections** with discovery policies:
+
 - **Global Collection**: All agents, discoverable by default
 - **Custom Collections**: Admin-defined, scoped discovery
 

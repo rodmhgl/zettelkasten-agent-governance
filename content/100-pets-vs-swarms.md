@@ -4,15 +4,17 @@
 
 ## The Shift
 
-Traditional IT managed servers as "pets"—named, nurtured, manually configured. DevOps introduced "cattle"—numbered, automated, disposable.
+Traditional IT managed servers as "pets" - named, nurtured, manually configured. DevOps introduced "cattle" - numbered, automated, disposable.
 
 AI agents require the same mental shift:
+
 - **Pet agents**: Individually configured, manually tracked, bespoke permissions
 - **Swarm agents**: Template-driven, policy-governed, automated lifecycle
 
 ## Why This Matters
 
 Organizations deploying AI agents at scale cannot:
+
 - Manually review each agent's permissions
 - Track individual agent behavior without automation
 - Respond to incidents on a per-agent basis
@@ -20,6 +22,7 @@ Organizations deploying AI agents at scale cannot:
 ## The Solution
 
 Apply governance to *types* of agents via [[110-agent-identity-blueprints]], not to individual instances. This enables:
+
 - Consistent security posture across agent fleets
 - Scalable policy enforcement
 - Automated lifecycle management

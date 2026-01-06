@@ -35,6 +35,7 @@ Access Package Policy
 ## Renewal Workflows
 
 When expiration approaches:
+
 1. **14 days before**: Email notification to agent's manager
 2. **1 day before**: Final reminder
 3. **On expiration**: Access removed automatically
@@ -43,6 +44,7 @@ When expiration approaches:
 ## Complementary Controls
 
 Time-bound access works alongside:
+
 - [[123-access-reviews-recertification]] - Periodic human attestation
 - [[142-automated-kill-switch]] - Immediate revocation on risk
 - [[133-conditional-access-agents]] - Session lifetime controls

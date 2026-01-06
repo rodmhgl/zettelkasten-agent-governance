@@ -27,6 +27,7 @@ Not all agents are equal. A read-only reporting agent poses different risks than
 ## Using Collections for Classification
 
 The [[111-agent-registry]] supports **collections** for grouping:
+
 - Create collections by risk tier
 - Apply discovery policies per collection
 - Scope CA policies to collections
@@ -34,6 +35,7 @@ The [[111-agent-registry]] supports **collections** for grouping:
 ## Connection to Conditional Access
 
 Classification feeds into [[133-conditional-access-agents]]:
+
 - "High-risk agents require compliant device"
 - "Read-only agents allowed from any network"
 - "Admin agents blocked if risk score elevated"

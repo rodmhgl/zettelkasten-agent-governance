@@ -4,7 +4,7 @@
 
 ## The Principle
 
-**Never trust, always verify—even for agents.**
+**Never trust, always verify - even for agents.**
 
 Zero Trust assumes breach and verifies every access request as if it originates from an uncontrolled network. Agents are no exception.
 
@@ -22,16 +22,19 @@ Zero Trust assumes breach and verifies every access request as if it originates 
 ## Agent-Specific Zero Trust Controls
 
 ### Verify Explicitly
+
 - Every agent request authenticated via Entra
 - No shared credentials between agents (see [[112-unique-machine-identities]])
 - Continuous Access Evaluation for real-time validation
 
 ### Use Least Privilege
+
 - Delegated permissions over application permissions (see [[134-delegated-vs-application-permissions]])
 - Time-bound access packages (see [[132-time-bound-access]])
 - Scoped API permissions, never wildcard
 
 ### Assume Breach
+
 - Risk-based Conditional Access (see [[133-conditional-access-agents]])
 - Automated kill switch (see [[142-automated-kill-switch]])
 - Comprehensive audit logging (see [[141-audit-reasoning-trace]])

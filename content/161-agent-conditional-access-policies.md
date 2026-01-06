@@ -111,6 +111,7 @@ Grant:
 ## Policy Naming Convention
 
 Recommend structured naming:
+
 ```
 {ACTION} - {DESCRIPTION} [{SCOPE}]
 

@@ -5,9 +5,11 @@
 ## The Principle
 
 Traditional audit logs answer **what** happened:
+
 - "Agent X accessed file Y at time Z"
 
 Agent auditing must also capture **why**:
+
 - "Agent X accessed file Y because user asked about Q3 revenue"
 
 ## Why Reasoning Traces Matter
@@ -54,6 +56,7 @@ Microsoft Entra Agent ID provides:
 ## Correlation Challenge
 
 Linking these together requires:
+
 - Consistent correlation IDs across systems
 - Agent identity as the joining key
 - Timestamp alignment

@@ -6,7 +6,7 @@
 
 An agent identity blueprint is a **template** for creating agent identities. It defines the "type" or "class" of agent and records metadata shared across all instances of that type.
 
-Think of it like a Kubernetes Deployment vs Pod relationship—the blueprint defines the spec, individual agent identities are the running instances.
+Think of it like a Kubernetes Deployment vs Pod relationship - the blueprint defines the spec, individual agent identities are the running instances.
 
 ## Four Purposes
 
@@ -18,14 +18,15 @@ Think of it like a Kubernetes Deployment vs Pod relationship—the blueprint def
 ## Example Scenario
 
 Organization deploys a "Sales Assistant Agent":
-- One **blueprint** called "Sales Assistant Agent" 
+
+- One **blueprint** called "Sales Assistant Agent"
 - Multiple **agent identities**: NA-Sales, EU-Sales, Enterprise-Sales, SMB-Sales
 - All share: display name pattern, permissions, risk policies
 - Each unique: object ID, specific resource access, sponsor
 
 ## Blueprint Principal
 
-When a blueprint is added to a tenant, it creates a **blueprint principal**—the in-tenant record that can instantiate agent identities.
+When a blueprint is added to a tenant, it creates a **blueprint principal** - the in-tenant record that can instantiate agent identities.
 
 ---
 

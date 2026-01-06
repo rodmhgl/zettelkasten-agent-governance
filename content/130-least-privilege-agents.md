@@ -7,6 +7,7 @@
 **Agents should never have permanent, broad permissions.**
 
 Every permission granted to an agent should be:
+
 - **Necessary**: Required for the agent's function
 - **Sufficient**: No more than required
 - **Temporary**: Time-bound with explicit renewal
@@ -15,6 +16,7 @@ Every permission granted to an agent should be:
 ## Why Agents Are High Risk
 
 Unlike humans who access systems interactively:
+
 - Agents run 24/7 without fatigue
 - Agents can process data at machine speed
 - Compromised agents can exfiltrate massive volumes
