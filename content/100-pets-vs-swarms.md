@@ -42,4 +42,4 @@ Apply governance to *types* of agents via [[110-agent-identity-blueprints]], not
 
 ## Source
 
-Conceptual framework for Microsoft Entra Agent ID governance
+[YouTube - BRK265 - Secure access for AI agents with Microsoft Entra](https://www.youtube.com/watch?v=rBRwT0E0jQA)
