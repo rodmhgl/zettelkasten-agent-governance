@@ -4,7 +4,7 @@ This repository contains the source for a knowledge base about governing AI agen
 
 ## View the Site
 
-**https://rodmhgl.github.io/zettelkasten-agent-governance**
+**<https://rodmhgl.github.io/zettelkasten-agent-governance>**
 
 The content in this repository is published as a static site using [Quartz](https://quartz.jzhao.xyz/). Visit the link above for the best reading experience.
 
