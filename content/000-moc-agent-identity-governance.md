@@ -68,6 +68,9 @@ This MOC connects notes about governing AI agent identities at enterprise scale 
 
 ## Sources
 
-Primary: Microsoft Learn - Entra Agent ID Documentation
-Status: Preview (Microsoft Agent 365 / Frontier Program)
+Primary:
+
+- [YouTube - BRK265 - Secure access for AI agents with Microsoft Entra](https://www.youtube.com/watch?v=rBRwT0E0jQA)
+- [Ignite - BRK265 - Secure access for AI agents with Microsoft Entra](https://ignite.microsoft.com/en-US/sessions/BRK265)
+
 Updated: January 2026
