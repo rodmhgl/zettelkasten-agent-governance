@@ -1,6 +1,6 @@
 # Zettelkasten: AI Agent Identity Governance
 
-This repository contains the source for a knowledge base about governing AI agent identities at enterprise scale using Microsoft Entra Agent ID.
+This repository contains the source for a Zettelkasten about governing AI agent identities at enterprise scale using Microsoft Entra Agent ID.
 
 ## View the Site
 
